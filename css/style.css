@@ -3,6 +3,7 @@ body{
     font-family:"DejaVu Sans Mono", monospace;
     margin:0px;
     padding: 0px;
+    font-size: 15px;
 }
 #minhas-informacoes{
     margin-top: -1%;
@@ -40,12 +41,14 @@ body{
     transition-property: all;
 }
 
-#bem-vindo{
+#frase{
+    padding-left: 2px;
     transition-duration: 3s;
     transition-property: all;
     border-color:rgb(172, 172, 172);
 }
-#bem-vindo:hover{
+#frase:hover{
+    padding-left: 2px;
     color: cornflowerblue;
     transition-duration: 3s;
     transition-property: all;
@@ -120,8 +123,18 @@ abbr{
     font-size: 18px;
 }
 
-#entrada-do-select{
+#saida-do-select{
     width: 90%;
     height: 90%;
     border-style: solid;
 }
+
+#niveis{
+    display: inline;
+    margin-left: 15%;
+    padding: 10px;
+}
+
+.red{background-color: rgb(173, 44, 44);}
+.orange{background-color: rgb(189, 130, 22);}
+.green{background-color: rgb(17, 114, 17);}
