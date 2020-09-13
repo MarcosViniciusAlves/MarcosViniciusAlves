@@ -2,10 +2,12 @@ body{
     background-color:#1C1C1C;
     font-family:"DejaVu Sans Mono", monospace;
     margin:0px;
+    padding: 0px;
 }
 #minhas-informacoes{
+    margin-top: -1%;
     position: absolute;
-    height: 90%;
+    height: 99%;
     width: 24%;
     transition-duration: 3s;
     transition-property: all;
@@ -26,6 +28,16 @@ body{
     height: 500px;
     border-color: honeydew;
     color: rgb(218, 214, 214);
+}
+
+#introducao-trajetoria{
+    transition-duration: 3s;
+    transition-property: all;
+}
+#introducao-trajetoria:hover{
+    color:cornflowerblue;
+    transition-duration: 3s;
+    transition-property: all;
 }
 
 #bem-vindo{
@@ -85,4 +97,31 @@ body{
 
 abbr{
     text-decoration: none;
+}
+
+#meus-interesses{
+    background-color: #1C1C1C;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+    border-style: solid;
+    border-color: #1C1C1C;
+    transition-duration: 3s;
+    transition-property: all;
+}
+
+.selecionar{
+    background-color: #1C1C1C;
+    border-style: solid;
+    border-color: #1C1C1C;
+    outline: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+#entrada-do-select{
+    width: 90%;
+    height: 90%;
+    border-style: solid;
 }
