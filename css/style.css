@@ -6,6 +6,7 @@ body{
     font-size: 15px;
 }
 #minhas-informacoes{
+    letter-spacing: 2px;
     margin-top: -1%;
     position: absolute;
     height: 99%;
@@ -17,6 +18,7 @@ body{
     border-color: rgb(172, 172, 172);
 }
 #minhas-informacoes:hover{
+    letter-spacing: 2px;
     position: absolute;
     height: 90%;
     width: 24%;
@@ -25,6 +27,7 @@ body{
     transition-property: all;
 }
 #minha-trajetoria{
+    letter-spacing: 2px;
     margin-left: 27%;
     height: 500px;
     border-color: honeydew;
@@ -34,8 +37,10 @@ body{
 #introducao-trajetoria{
     transition-duration: 3s;
     transition-property: all;
+    letter-spacing: 2px;
 }
 #introducao-trajetoria:hover{
+    letter-spacing: 2px;
     color:cornflowerblue;
     transition-duration: 3s;
     transition-property: all;
@@ -43,11 +48,13 @@ body{
 
 #frase{
     padding-left: 2px;
+    letter-spacing: 2px;
     transition-duration: 3s;
     transition-property: all;
     border-color:rgb(172, 172, 172);
 }
 #frase:hover{
+    letter-spacing: 2px;
     padding-left: 2px;
     color: cornflowerblue;
     transition-duration: 3s;
@@ -84,12 +91,13 @@ body{
 
 #links{
     margin-top: 10%;
+    letter-spacing: 2px;
 }
 .aYoutube{
     margin-left: 40%;
     text-decoration: none;
     color:red;
-    
+    letter-spacing: 2px;
 }
 
 .aYoutube:hover{
@@ -125,16 +133,41 @@ abbr{
 
 #saida-do-select{
     width: 90%;
-    height: 90%;
-    border-style: solid;
 }
 
 #niveis{
     display: inline;
     margin-left: 15%;
     padding: 10px;
+    letter-spacing: 2px;
 }
 
 .red{background-color: rgb(173, 44, 44);}
 .orange{background-color: rgb(189, 130, 22);}
 .green{background-color: rgb(17, 114, 17);}
+
+#imgAb{
+    position: absolute;
+}
+
+.fraseCMarg{
+    margin-left: 15%;
+}
+
+#curiosidade{
+    margin-top: 10%;
+    letter-spacing: 2px;
+    color: aliceblue;
+    transition-property:all;
+    transition-duration: 3s;
+    margin-left: 3px;
+}
+
+#curiosidade:hover{
+    margin-top: 10%;
+    letter-spacing: 2px;
+    color: burlywood;
+    transition-property:all;
+    transition-duration: 3s;
+    margin-left: 3px;
+}
