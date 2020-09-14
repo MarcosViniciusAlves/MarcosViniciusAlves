@@ -20,7 +20,7 @@ body{
 #minhas-informacoes:hover{
     letter-spacing: 2px;
     position: absolute;
-    height: 90%;
+    height: 99%;
     width: 24%;
     border-color: rgb(11, 197, 197);
     transition-duration: 3s;
@@ -161,6 +161,7 @@ abbr{
     transition-property:all;
     transition-duration: 3s;
     margin-left: 3px;
+    margin-bottom: 50px;
 }
 
 #curiosidade:hover{
