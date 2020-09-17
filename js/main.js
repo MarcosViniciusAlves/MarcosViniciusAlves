@@ -2,17 +2,17 @@ const saidaDoSelect = document.querySelector("#saida-do-select")
 const select = document.querySelector("#meus-interesses")
 const botaoSelecionar = document.querySelector(".selecionar")
 
-const interesses = ["mysql","python"];
+const interesses = ["mysql","c++"];
 
 
-function ocupaComPython () {
-    saidaDoSelect.innerHTML = ""
+function ocupaComCplusplus () {
+    saidaDoSelect.innerHTML = "";
 
-    saidaDoSelect.innerHTML = '<img height="100" id="imgAb" src="css/images/python.png"><h3 id="frase" class="fraseCMarg" >minha trajetoria com python tem muito a ver com <abbr title="Inteligência Artificial">IA</abbr> e também muito a ver com Machine Learning,gosto dessa linguagem pelo fácil uso e por ser muito presente , é interessante aprender ela<h3>'
+    saidaDoSelect.innerHTML = '<img height="100" id="imgAb" src="css/images/cplusplus.png"><h3 id="frase" class="fraseCMarg" >minha trajetoria com c++ tem muito a ver com <abbr title="Inteligência Artificial">IA</abbr>,gosto dessa linguagem pela alta usuabilidade dela em quase todos os lugares<h3>';
 
-    saidaDoSelect.innerHTML += '<br><br><br><div id="niveis" class="red">Básico</div><div id="niveis" class="red" >Intermediário</div><div id="niveis" class="red">Avançado</div>'
+    saidaDoSelect.innerHTML += '<br><br><br><div id="niveis" class="red">Básico</div><div id="niveis" class="red" >Intermediário</div><div id="niveis" class="red">Avançado</div>';
 
-    saidaDoSelect.innerHTML += '<h3 id="curiosidade" >Curiosidade : Uma curiosidade interessante sobre a linguagem de programação python é que a linguagem não recebeu esse nome por causa da espécie de serpente, mas sim do seriado de comédia da BBC Monty Python’s Flying Circus da qual Guido van Rossum é um fã.</h3>';
+    saidaDoSelect.innerHTML += '<h3 id="curiosidade" >Em 1985:É criado o C++ por Bjarne Stroustrup com o intuito de melhorar a linguagem C, tendo como uma das vantagens poder programar em baixo e alto nível, softwares como o Emule, Microsoft Office ou Internet Explorer foram criados em C++</h3>';
 }
 
 function ocupaComMysql () {
@@ -30,15 +30,15 @@ function identificaSelect(){
     if(select.value === interesses[0]){
         return "mysql"
     }else if(select.value === interesses[1]){
-        return "python"
+        return "cplusplus"
     }
 }
 
 botaoSelecionar.addEventListener("click",(e)=>{
-    e.preventDefault()
+    e.preventDefault();
     if(identificaSelect() === "mysql"){
-        ocupaComMysql()
-    }else if(identificaSelect() === "python"){
-        ocupaComPython()
+        ocupaComMysql();
+    }else if(identificaSelect() === "cplusplus"){
+        ocupaComCplusplus();
     }
 })
